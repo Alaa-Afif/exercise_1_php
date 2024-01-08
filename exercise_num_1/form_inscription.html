@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Haouia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2><b>E-Haouia Mobile</b></h2>
+        <p>Inscription</p>
+    </header>
+    <div class="container">
+        <div class="up">
+            <div class="title">
+                <h1>Inscription</h1>
+            </div>
+            <img src="images/LogoMobileID.svg" alt="LogoMobileID" width="100px" height="auto">
+        </div>
+        <form action="inscription.php" method="post">
+            <div class="details">
+                <div class="CIN input">
+                    <label for="CIN">CIN*</label><br>
+                    <input type="number" id="CIN" name="cin" placeholder="Numéro CIN" required>
+                </div>
+                <div class="GSM input">
+                    <label for="gsm">GSM*</label><br>
+                    <input type="number" id="gsm" name="gsm" placeholder="Numéro Téléphone" required>
+                </div>
+                <div class="EMAIL input">
+                    <label for="email">Email*</label><br>
+                    <input type="text" id="email" name="email" placeholder="Adresse Email" required>
+                </div>
+            </div>
+            <div class="down">
+                <input type="submit" value="Crée Mobile-ID" id="submit" name="submit">
+                <img src="images/logopetit.svg" alt="petitlogo" width="30px" height="auto">
+            </div>
+        </form>
+        <div class="Récupérer">
+            <a href="#" >Récupérer mon mobile ID</a>
+        </div>        
+    </div>
+    <div class="copyright">
+        <p>@ Tous droits réservée 2023-2024</p>
+    </div>
+    <script src="chr.js"></script>
+</body>
+</html>

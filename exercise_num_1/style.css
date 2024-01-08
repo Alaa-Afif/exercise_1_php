@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header h2{
+    background-color: brown;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #000;
+}
+header p{
+    background-color: blanchedalmond;
+    padding: 10px;
+    padding-left: 20px;
+    color: #000;
+}
+.container{
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+
+}
+form .details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+form .details .input label{
+    font-size: 15px;
+}
+form .details .input input{
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin:  2px 0;
+}
+form .down{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+form #submit{
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: brown;
+    
+    margin-bottom: 20px;
+}
+.Récupérer{
+    font-size: 12px;
+}
+.copyright{
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    font-size: 10px;
+}
